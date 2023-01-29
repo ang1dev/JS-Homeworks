@@ -52,6 +52,7 @@ function getAllPeople() {
         .then(people => {
             people.json()
                 .then(parsedPeople => {
+                    console.log(parsedPeople);
                     people = parsedPeople.results;
 
                     for (let i = 0; i < people.length; i++) {
