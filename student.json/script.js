@@ -7,19 +7,19 @@ function getAllStudents() {
                 .then(parsedStudents => {
                     let students = parsedStudents;
 
-                    // let averageGrade3 = students
-                    //     .filter(
-                    //         (s) => s.averageGrade > 4
-                    //     );
-                    // console.log(averageGrade3);
+                    let averageGrade3 = students
+                        .filter(
+                            (s) => s.averageGrade > 4
+                        );
+                    console.log(averageGrade3);
 
-                    // let allFemalesWithAvg5 = students
-                    //     .filter((s) => s.gender === 'Female' && s.averageGrade === 5);
-                    // console.log(allFemalesWithAvg5);
+                    let allFemalesWithAvg5 = students
+                        .filter((s) => s.gender === 'Female' && s.averageGrade === 5);
+                    console.log(allFemalesWithAvg5);
 
-                    // let malesStudentsInSkopje18Years = students
-                    //     .filter((s) => s.gender === 'Male' && s.age > 18 && s.city === 'Skopje');
-                    // console.log(malesStudentsInSkopje18Years);
+                    let malesStudentsInSkopje18Years = students
+                        .filter((s) => s.gender === 'Male' && s.age > 18 && s.city === 'Skopje');
+                    console.log(malesStudentsInSkopje18Years);
                     
                     let allFemalesOver24 = students
                     .filter((s)=> s.gender === 'Female' && s.age > 24)
@@ -31,9 +31,9 @@ function getAllStudents() {
                     console.log('avg grade is: ',avgOfAllGrades);
 
                 
-                    // let studentsWithB = students
-                    //     .filter((s) => s.firstName.startsWith('B') && s.averageGrade > 2);
-                    // console.log(studentsWithB);
+                    let studentsWithB = students
+                        .filter((s) => s.firstName.startsWith('B') && s.averageGrade > 2);
+                    console.log(studentsWithB);
                 })
                 .catch(e => {
                     console.error(e);
