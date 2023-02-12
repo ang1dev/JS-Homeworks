@@ -25,7 +25,7 @@ export default class Mammal {
     }
 
 
-
+// 1 del od domasnata
     printSpec(){
         Object.keys(this).forEach(key => console.log(key));
 
