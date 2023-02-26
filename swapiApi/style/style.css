@@ -1,0 +1,132 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#table{
+    visibility: hidden;
+}
+
+body{
+    background-color: rgb(55, 55, 38);
+    background-attachment: fixed;
+    margin: auto;
+}
+
+#hello{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;    
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+#swapiApi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-bottom: 25px;
+
+}
+
+.btn{
+    background-color: rgb(228, 228, 38);
+    width: 180px;
+    height: 80px;
+    padding: 1em;
+    font-weight: 700;
+    color: var(--clr--light);
+    text-align: center;
+    border:10px solid var(--clr--accent);
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+  
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #90b83f;
+    box-shadow: rgba(70, 198, 19, 0.1) 0 4px 12px;
+  }
+  
+
+
+table{
+
+    display: inline-flexbox;
+    border: 20px black;
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    overflow-x:auto;
+    padding:15px;
+    border: 5px;
+    border-color: yellow;
+    border-style: groove;
+    color:white;
+    visibility: visible;
+}
+
+tr td {
+    padding: 25px;
+}
+
+h1 {
+
+Color: Yellow !important;
+
+} 
+
+#refreshBtn {
+      align-items: center;
+      background-clip: padding-box;
+      background-color: #fa6400;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      font-family: system-ui,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.25;
+      min-height: 3rem;
+      padding: calc(.875rem - 1px) calc(1.5rem - 1px); 
+     
+    }
+    
+    #refreshBtn:hover,
+    #refreshBtn:focus {
+      background-color: #fb8332;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    }
+    
+    #refreshBtn:hover {
+      transform: translateY(-1px);
+    }
+    
+    #refreshBtn:active {
+      background-color: #c85000;
+      box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+      transform: translateY(0);
+    }
+    
+   
+    
+    
+  
+
+
+
+
